@@ -1,0 +1,130 @@
+[
+  {
+      "navlabel": true,
+      "subheader": "Home"
+  },
+  {
+      "id": "14",
+      "title": "Sample Page 2",
+      "icon": {
+          "propTypes": {}
+      },
+      "href": "/sample-page",
+      "chip": "New",
+      "chipColor": "secondary"
+  },
+  {
+      "navlabel": true,
+      "subheader": "Other"
+  },
+  {
+      "id": "15",
+      "title": "Menu Level",
+      "icon": {
+          "propTypes": {}
+      },
+      "href": "/menulevel/",
+      "children": [
+          {
+              "id": "16",
+              "title": "Level 1",
+              "icon": {
+                  "propTypes": {}
+              },
+              "href": "/l1"
+          },
+          {
+              "id": "17",
+              "title": "Level 1.1",
+              "icon": {
+                  "propTypes": {}
+              },
+              "href": "/l1.1",
+              "children": [
+                  {
+                      "id": "18",
+                      "title": "Level 2",
+                      "icon": {
+                          "propTypes": {}
+                      },
+                      "href": "/l2"
+                  },
+                  {
+                      "id": "19",
+                      "title": "Level 2.1",
+                      "icon": {
+                          "propTypes": {}
+                      },
+                      "href": "/l2.1",
+                      "children": [
+                          {
+                              "id": "20",
+                              "title": "Level 3",
+                              "icon": {
+                                  "propTypes": {}
+                              },
+                              "href": "/l3"
+                          },
+                          {
+                              "id": "21",
+                              "title": "Level 3.1",
+                              "icon": {
+                                  "propTypes": {}
+                              },
+                              "href": "/l3.1"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": "22",
+      "title": "Disabled",
+      "icon": {
+          "propTypes": {}
+      },
+      "href": "/",
+      "disabled": true
+  },
+  {
+      "id": "23",
+      "title": "SubCaption",
+      "subtitle": "This is the sutitle",
+      "icon": {
+          "propTypes": {}
+      },
+      "href": "/"
+  },
+  {
+      "id": "24",
+      "title": "Chip",
+      "icon": {
+          "propTypes": {}
+      },
+      "href": "/",
+      "chip": "9",
+      "chipColor": "primary"
+  },
+  {
+      "id": "25",
+      "title": "Outlined",
+      "icon": {
+          "propTypes": {}
+      },
+      "href": "/",
+      "chip": "outline",
+      "variant": "outlined",
+      "chipColor": "primary"
+  },
+  {
+      "id": "26",
+      "title": "External Link",
+      "external": true,
+      "icon": {
+          "propTypes": {}
+      },
+      "href": "https://google.com"
+  }
+]

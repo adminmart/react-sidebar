@@ -1,0 +1,49 @@
+{
+  "name": "modernize-react-sidebar",
+  "version": "1.1.4",
+  "description": "a react sidebar package",
+  "main": "dist/index.js",
+  "scripts": {
+    "build-lib": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-replace": "^5.0.5",
+    "@storybook/addon-essentials": "^7.6.6",
+    "@storybook/addon-interactions": "^7.6.6",
+    "@storybook/addon-links": "^7.6.6",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/blocks": "^7.6.6",
+    "@storybook/react": "^7.6.6",
+    "@storybook/react-webpack5": "^7.6.6",
+    "@storybook/test": "^7.6.6",
+    "prop-types": "^15.8.1",
+    "rollup": "^4.9.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "simplebar-react": "^3.2.4",
+    "storybook": "^7.6.6",
+    "@mui/icons-material": "5.8.4",
+    "@mui/material": "5.10.16",
+    "@popperjs/core": "^2.11.6",
+    "@tabler/icons-react": "^2.38.0",
+    "react-i18next": "^14.0.0",
+    "react-router-dom": "^6.21.1"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "classnames": "^2.3.2",
+    "lodash": "^4.17.21"
+   
+  }
+}
