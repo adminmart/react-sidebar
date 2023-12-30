@@ -1,8 +1,10 @@
 import React from 'react';
 import { Sidebar } from '../components/Sidebar';
  
-import Menuitems from '../components/MenuItems2';
+//import Menuitems from '../components/MenuItems2';
 
+
+import data from '../components/data.json'
 
 export default {
   title: 'Sidebar',
@@ -10,12 +12,11 @@ export default {
 }
 
 export const Primary = ({ ...props }) => {
-
-   console.log('sddadsad',Menuitems)
+ 
   return (
 
     <Sidebar {...props}    
-         menuData={Menuitems}
+         menuData={data}
          width={'300px'}
         >
         

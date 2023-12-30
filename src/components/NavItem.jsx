@@ -13,6 +13,8 @@ import {
 import { useTranslation } from 'react-i18next';
  
 export const NavItem = ({ item, level, pathDirect, hideMenu, onClick }) => {
+
+   console.log('NavItem_hitesh',item);
    
   const Icon = item?.icon;
   const theme = useTheme();

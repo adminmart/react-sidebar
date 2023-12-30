@@ -1,8 +1,13 @@
 {
-  "name": "modernize-react-sidebar",
-  "version": "1.1.4",
+  "name": "react-sidebar-menu",
+  "version": "1.1.5",
   "description": "a react sidebar package",
   "main": "dist/index.js",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adminmart/react-sidebar.git"
+  },
   "scripts": {
     "build-lib": "rollup -c -w",
     "test": "echo \"Error: no test specified\" && exit 1",

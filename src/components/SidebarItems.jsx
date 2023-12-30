@@ -7,14 +7,15 @@ import {NavItem} from '../components/NavItem';
 import {NavCollapse} from '../components/NavCollapse';
 import {NavGroup} from '../components/NavGroup';
 
-export const SidebarItems = ({menuData}) => {
+export const SidebarItems = (menuData) => {
    
   // const lgUp = useMediaQuery((theme) => theme.breakpoints.up('lg'));
+  console.log("MenuData",menuData);
 
   return (
     <Box sx={{ px: 3 }}>
       <List sx={{ pt: 0 }} className="sidebarNav">
-        {menuData.map((item) => {
+        {menuData.menuData?.map((item) => {
         
           // {/********SubHeader**********/}
           if (item.subheader) {
@@ -29,16 +30,14 @@ export const SidebarItems = ({menuData}) => {
               <NavCollapse
                 menu={item}
                 level={1}
-                key={item.id}
-                 
+                key={item.id} 
               />
             );
 
             // {/********If Sub No Menu**********/}
           } else {
             return (
-              
-               <NavItem item={item} key={item.id} />
+                  <NavItem item={item} key={item.id} />
             );
           }
         })}
